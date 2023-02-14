@@ -13,3 +13,11 @@ def arraySum(arr):
 
 arr = [8, 26, 14, 5, 32]
 print(arraySum(arr))
+
+def arrayProduct(arr):
+    count = 1
+    for i in arr:
+        count *= i
+    return count
+
+print(arrayProduct(arr))

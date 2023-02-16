@@ -43,3 +43,6 @@ if __name__ == "__main__":
     print("The product of all elements in the array = " + str(arrayProduct(inputArr)))
     print("The array in reverse order = " + str(arrayReverse(inputArr)))
 ### End Main Program ###
+
+# This comment was added for Part 10 of the assignment!
+# (Needed to make changes before pushing to GitHub)

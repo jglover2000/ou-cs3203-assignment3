@@ -22,6 +22,12 @@ def arrayProduct(arr):
 
 print(arrayProduct(arr))
 
+def arrayReverse(arr):
+    arr.reverse()
+    return arr
+
+print(arrayReverse(arr))
+
 ### Main Program ###
 if __name__ == "__main__":
     

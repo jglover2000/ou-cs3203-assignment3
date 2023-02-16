@@ -21,3 +21,18 @@ def arrayProduct(arr):
     return count
 
 print(arrayProduct(arr))
+
+### Main Program ###
+if __name__ == "__main__":
+    
+    inputArr = []
+    
+    size = int(input("Enter the desired size of the array: "))
+    
+    for i in range(0, size):
+        elements = int(input("Enter a desired element: "))
+        inputArr.append(elements)
+        
+    print("The sum of all elements in the array = " + str(arraySum(inputArr)))
+    print("The product of all elements in the array = " + str(arrayProduct(inputArr)))
+### End Main Program ###

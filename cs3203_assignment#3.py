@@ -22,6 +22,12 @@ def arrayProduct(arr):
 
 print(arrayProduct(arr))
 
+def arrayReverse(arr):
+    arr.reverse()
+    return arr
+
+print(arrayReverse(arr))
+
 ### Main Program ###
 if __name__ == "__main__":
     
@@ -30,7 +36,7 @@ if __name__ == "__main__":
     size = int(input("Enter the desired size of the array: "))
     
     for i in range(0, size):
-        elements = int(input("Enter a desired element: "))
+        elements = int(input("Enter an element: "))
         inputArr.append(elements)
         
     print("The sum of all elements in the array = " + str(arraySum(inputArr)))

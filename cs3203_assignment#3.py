@@ -41,4 +41,5 @@ if __name__ == "__main__":
         
     print("The sum of all elements in the array = " + str(arraySum(inputArr)))
     print("The product of all elements in the array = " + str(arrayProduct(inputArr)))
+    print("The array in reverse order = " + str(arrayReverse(inputArr)))
 ### End Main Program ###
